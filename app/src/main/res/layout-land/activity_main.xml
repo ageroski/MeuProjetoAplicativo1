@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.meuprojeto.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtAppConcessioaria"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="#4148"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtMarca"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/arrayMarcas">
+
+        </Spinner>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txtModelo"
+            android:textSize="25dp"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etModelo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintModelo1"
+            android:inputType="textCapWords" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtTipo"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbPassageiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPassageiro"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbCarga"
+                android:text="@string/txtCarga"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNovo"
+            android:id="@+id/cbNovo"
+            android:textSize="25dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSalvar"
+            android:textSize="17dp"
+            android:id="@+id/btnSalvar"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

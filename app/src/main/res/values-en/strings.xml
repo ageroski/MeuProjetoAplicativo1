@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Marca de veículos</string>
+
+    <string name="txtPassageiro">Passenger</string>
+    <string name="txtCarga">Charge</string>
+    <string name="txtSalvar">Save</string>
+    <string name="txtMarca">Brand:</string>
+    <string name="txtModelo">Model:</string>
+    <string name="txtTipo">Type:</string>
+    <string name="txtSair">Exit:</string>
+    <string name="txtLimpar">To clean:</string>
+    <string name="txtNovo">New:</string>
+    <string name="txtAppConcessionaria">App delearship</string>
+
+
+
+    <string name="hintModelo">Enter the model here: </string>
+
+    <string name="selecioneMarcas">Select a brand!</string>
+    <string name="selecione">Select...</string>
+
+
+    <string-array name="arrayMarcas">
+        <item>Select...</item>
+        <item>Chevrolet</item>
+        <item>Ford</item>
+        <item>Fiat</item>
+        <item>Volkswagen</item>
+        <item>JEEP</item>
+        <item>Renault</item>
+        <item>Toyota</item>
+        <item>Hyundai</item>
+        <item>Honda</item>
+        <item>Nissan</item>
+    </string-array>
+
+</resources>
